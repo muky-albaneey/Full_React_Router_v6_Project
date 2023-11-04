@@ -1,0 +1,42 @@
+.formWrapper{
+    justify-content: center;
+}
+.form{
+    width: 80%;
+    /* background-color: red; */
+    height: 40rem;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.form input{
+    width: 70%;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    outline: none;
+    
+}
+.lBtn{
+    width: 40%;
+    padding: 1.7rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+.lBtn:hover{
+    cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+    .form{
+        height: 18rem;
+    }
+    .lBtn{
+        padding: 0.5em;
+        font-size: 1.4rem;
+    }
+
+    .form input{
+        padding: 0.7rem;
+    }
+}

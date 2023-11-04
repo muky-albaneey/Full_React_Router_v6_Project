@@ -1,0 +1,85 @@
+.host_mother{
+    justify-content: center;
+}
+.host{
+    background-color: antiquewhite;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.hostWrapper{
+    background-color: azure;
+     width: 80%;
+    /* height: 10rem;  */
+    margin-bottom: 2px;
+    justify-content: flex-start;
+}
+.hostContainer{
+    width: 40%;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.hostContainer>img{
+    width: 20%;
+    border-radius: 10px;
+    height: 120px;
+}
+
+section{
+    background-color: antiquewhite;
+    padding: 5rem;
+}
+.hostDetailWrapper{
+    width: 100%;
+   padding: 2.2rem;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 1rem;
+}
+
+.hosinfoCon{
+    width: 80%;
+    padding: 1.2rem;
+    height: 10rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    
+    
+}
+
+.hosinfoCon>img{
+    width: 55%;
+    height: 200px;
+    border-radius: 2rem;
+}
+.hosinfoCon2{
+    width: 100%;
+     align-items: flex-start;
+     
+}
+.hostNavCon{
+    width: 25%;        
+    justify-content: flex-start;
+    margin-top: 1rem;
+    gap: 3rem;
+    
+}
+.hostNavCon a{
+    font-size: 1.2rem;
+}
+.vanType{
+    font-size: 0.9rem;
+}
+.hosDesc{
+    align-items: flex-start;
+    gap: 2rem;
+}
+span{
+    font-weight: bolder;
+    font-size: 2px;
+
+}

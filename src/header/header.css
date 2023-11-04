@@ -1,0 +1,69 @@
+.heading{
+    width: 100%;
+    height: 10rem;
+    justify-content: space-between;
+    padding: .9rem;
+    
+}
+
+.aside{    
+    font-size: 1.9rem;
+    width: 70%;
+    font-weight: 700;
+    /* text-align: left; */
+    justify-content: flex-start;
+}
+.navigation{        
+        width: 30%;            
+        justify-content: space-around;
+        
+}
+
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+.logoutBtn{
+    cursor: pointer;
+    width: 5rem;
+    border-radius: 3rem;
+}
+
+@media all and (max-width: 1050px) {
+
+    .heading{
+        height: 6rem;
+    }
+    .navigation{   
+    width: 70%;               
+    /* background-color: red; */
+}
+.navigation a{
+    font-size: 1rem;
+}
+.aside{       
+    width: 10%;   
+    
+    /* background-color: blue; */
+}
+.aside a{
+    font-size: 1rem;
+    /* color:red;   */
+}
+
+.avatar{
+    width: 2rem;
+    height: 2rem;
+    
+}
+.logoutBtn{
+    cursor: pointer;
+    width: 4rem;
+    border-radius: 3rem;
+    font-size: .6rem;
+    text-align: center;
+
+}
+
+}

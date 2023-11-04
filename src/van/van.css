@@ -1,0 +1,130 @@
+.singleVan{
+    /* width: 35%; */
+}
+.dataCon{    
+    width: 80%;    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+    
+}
+.vanInfo{
+    font-size: 2rem;
+    gap: 1rem;
+}
+.vanType{
+    font-size: 2rem;
+    padding: .5rem .9rem;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.searchNav{
+    gap: 3rem;
+}
+.simple{
+    background-color: orange;
+}
+.simple:active{
+    background-color: orange;
+}
+.rugged{
+    background-color: rgb(20, 52, 20);
+}
+.rugged:active{
+    background-color: rgb(20, 52, 20);
+}
+
+.luxury{
+    background-color: black;
+}
+.luxury:active{
+    background-color: black;
+}
+
+.selected:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+.types.simple:hover, .types.simple.selected{
+    color: azure;
+    background-color: orange;
+}
+.types.rugged:hover, .types.rugged.selected{
+    color: azure;
+    background-color: rgb(20, 52, 20);
+}
+.types.luxury:hover, .types.luxury.selected{
+    color: azure;
+    background-color: black;
+}
+.types{
+    border: none;       
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding: .5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    width: 40%;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    background-color: rgb(219, 186, 143);
+}
+.search{
+    width: 50%;
+    gap: 2rem;
+    padding-right: 4rem;
+   
+}
+.filter{
+    color: black;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding: .5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+
+/* vanDetail */
+
+.vanDetailWrapper{
+    justify-content: center;
+}
+.vanDetail{
+    width: 40%;
+    background-color: whitesmoke;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.price{
+    font-weight: bold;
+
+}
+.day{
+    font-weight: 400;
+}
+.linkButton{
+    width: 90%;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+}
+
+.linkButton:hover{
+    cursor: pointer;
+}
